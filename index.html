@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>A B C Memory Game</title>
+</head>
+<body style="background-image: url('img/pexels-nicola-barts-7943257.jpg'); background-size: cover; background-position: center;">
+
+    <header>
+        <h1>A B C Memory Game</h1>
+    </header>
+
+    <section id="level-selection">
+        <label for="level">Select Level:</label>
+        <select id="level">
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+        </select>
+        <button onclick="startGame()">Start Game</button>
+        <button id="muteButton" onclick="toggleMute()">Mute/Unmute</button>
+    </section>
+
+    <section class="game-container" id="game-container"></section>
+
+    <section class="win-screen" id="win-screen">
+        <h2>Congratulations!</h2>
+        <p>Time: <span id="total-time"></span></p>
+        <p>Moves: <span id="total-moves"></span></p>
+        <button onclick="restartGame()">Play Again</button>
+    </section>
+
+    <script src="src/app.js"></script>
+</body>
+</html>
