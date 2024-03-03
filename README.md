@@ -1,21 +1,22 @@
 ![logo_ironhack_blue 7](https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png)
 
-# Project | A B C Memory Game
+# Project | Train Your Brain Memory Game
 
 <br>
 
 
 ![Memory Game Board](img/pexels-nicola-barts-7943257.jpg)
 
-# A B C Memory Game
+# Tain Your Brain
+![Memory Game Board](img/train_your_brain.jpg)
 
-Welcome to the A B C Memory Game!
+Welcome to Train Your Brain Memory Game!
 
-Hey there, future web developers! 👋 Welcome to my A B C Memory Game project. I'm Mohamed Abdel Nasser, a web development student, and I created this game to make learning the alphabet a fun and engaging experience for children.
+Hey there, future web developers! 👋 Welcome to my Train Your Brain Memory Game. I'm Mohamed Abdel Nasser, a web development student, and I created this game to make the Brain always in training .
 
-## What is the A B C Memory Game?
+## What is the Train Your Brain Memory Game?
 
-The A B C Memory Game is a web-based project that transforms alphabet memorization into an exciting and interactive experience. Through colorful visuals and engaging gameplay, young learners can reinforce their understanding of alphabet shapes while having fun.
+The "Train Your Brain Memory Game" is an engaging and interactive memory game designed to challenge and enhance cognitive abilities. This game provides users with a fun and effective way to exercise their memory, concentration, and pattern recognition skills. Players are presented with a grid of face-down cards, each hiding a unique symbol or image. The objective is to match pairs of cards by remembering their positions and unveiling them in as few moves as possible.
 
 ## How to Play?
 
@@ -45,11 +46,11 @@ If you're inspired by this project and want to contribute, follow these steps:
 5. **Push Changes to Your Fork.**
 6. **Create a Pull Request.**
 
-Let's collaborate and make the A B C Memory Game even more fantastic together!
+Let's collaborate and make the Train Your Brain Memory Game even more fantastic together!
 
 
 ## Acknowledgments
 
-Special thanks to all the little learners who inspired and tested the A B C Memory Game. Let's continue this journey of discovery and fun!
+Special thanks to all who inspired and tested the Train Your Brain Memory Game. Let's continue this journey of discovery and fun!
 
-Feel free to explore, play, and learn with the A B C Memory Game. Happy coding! 🚀
+Feel free to explore, play, and train with the Train Your Brain Memory Game. Happy coding! 🚀

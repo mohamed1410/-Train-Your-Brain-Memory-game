@@ -1,8 +1,9 @@
 // Define different levels of the game with symbols
 const levels = [
-    { name: 'easy', symbols: ['A', 'B', 'C', 'D', 'E', 'F'] },
-    { name: 'medium', symbols: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J','K','L','M'] },
-    { name: 'hard', symbols: ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q','R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'] },
+    { name: 'easy', symbols: ['img/a.jpg','img/b.jpg', 'img/c.jpg', 'img/d.jpg', 'img/e.jpg','img/f.jpg'] },
+    { name: 'medium', symbols: ['img/a.jpg','img/b.jpg', 'img/c.jpg', 'img/d.jpg', 'img/e.jpg', 'img/f.jpg', 'img/g.jpg', 'img/h.jpg','img/i.jpg','img/j.jpg','img/k.jpg','img/l.jpg','img/m.jpg']}, 
+
+    { name: 'hard', symbols: ['img/a.jpg','img/b.jpg', 'img/c.jpg', 'img/d.jpg', 'img/e.jpg', 'img/f.jpg', 'img/g.jpg', 'img/h.jpg','img/i.jpg','img/j.jpg','img/k.jpg','img/l.jpg','img/m.jpg','img/n.jpg','img/o.jpg','img/p.jpg','img/q.jpg','img/r.jpg','img/s.jpg','img/t.jpg','img/u.jpg','img/v.jpg','img/w.jpg','img/x.jpg','img/y.jpg','img/z.jpg' ] },
 ];
 const sounds = {
     background : new Audio('sounds/Background.mp3'),
@@ -108,23 +109,27 @@ function renderGame() {
 
         // Set a custom attribute to identify the card's position
         cardElement.dataset.index = index;
+////////////////////////////////////////////////////////////////////////
 
-        // Display the symbol if the card is flipped, otherwise show nothing
-        if (card.isFlipped) {
-            // Show the symbol on the card
-            cardElement.innerHTML = card.symbol;
-        } else {
-            // If the card is not flipped, leave it empty
-            cardElement.innerHTML = '';
-        }
 
-        // Add a click event listener to the card
+const imgElement = document.createElement('img');
+        imgElement.classList.add('small'); // Add a class for styling if needed
+
+        const imagePath = card.isFlipped ? card.symbol : 'img/images.jpg'; // Change 'images/default.jpg' to your default image path
+
+        imgElement.src = imagePath;
+        cardElement.appendChild(imgElement);
         cardElement.addEventListener('click', () => flipCard(index));
-
-        // Add the card to the game container on the webpage
         gameContainer.appendChild(cardElement);
     });
 }
+
+
+
+
+
+
+       
 
 
 // Function to handle flipping a card
